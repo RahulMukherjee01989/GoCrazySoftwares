@@ -6,6 +6,8 @@
 <head runat="server">
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We Designed To Grow You, We offer Low Cost Website Development and Designing to meet the needs of your business or personal web sites.">
+    <meta name="Keywords" content="Website Designing, Responsive Website, Web Applications, Custom Development, Search Engine Optimization">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i%7CRaleway:600,600i,700,700i,800,800i" rel="stylesheet">
     <title></title>
     <meta name="description" content="Track performance. Eliminate fraud. Optimize engagement. Expand your business."/>
@@ -24,7 +26,7 @@ img.emoji {
 }
 		    
 </style>
-<link rel='stylesheet'   href='Content/wp-content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />
+<%--<link rel='stylesheet'   href='Content/wp-content/plugins/contact-form-7/includes/css/stylesef15.css?ver=4.8' type='text/css' media='all' />--%>
 <link rel='stylesheet'   href='Content/wp-content/themes/hubscale/css/bootstrap.minef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet'   href='Content/wp-content/themes/hubscale/css/font-awesome.minef15.css?ver=4.8' type='text/css' media='all' />
 <link rel='stylesheet'   href='Content/wp-content/themes/hubscale/css/slickef15.css?ver=4.8' type='text/css' media='all' />
@@ -58,8 +60,8 @@ img.emoji {
 <li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="index.aspx#about">About</a></li>
 <li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="index.aspx#project">Project</a></li>
 <%--<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="#partners">Partners</a></li>--%>
-<li id="menu-item-21" class="openContactForm menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="#">Feedback</a></li>
-<li id="menu-item-22" class="schedule-demo-link menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="#">Contact</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="#">Feedback</a></li>
+<li id="menu-item-22" class="schedule-demo-link menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="ContactUs.aspx">Contact</a></li>
 </ul></div>		</div>
 	</header>
     
@@ -69,12 +71,14 @@ img.emoji {
         <footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="nav_menu-2"><div class="widget__title txt-dark">©2017 Hubscale</div><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="privacy-policy/index.html">Privacy Policy</a></li>
-<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="terms-conditions/index.html">Terms &#038; Conditions</a></li>
-</ul></div></div></div><div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="text-2"><div class="widget__title txt-dark">Contact Us</div>			<div class="textwidget"><ul><li><a href="mailto:info@hubscale.io">info@hubscale.io</a></li><li><a href="tel:+33 1 77 47 56 67">+33 1 77 47 56 67</a></li></ul></div>
+				<div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="nav_menu-2"><div class="widget__title txt-dark">©2017 Go Crazy Softwares</div><div class="menu-footer-menu-container">
+                    <ul id="menu-footer-menu" class="menu">
+                        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+                            <a href="https://www.facebook.com/gocrazysoftwares" target="_blank"><img src="Content/Imgs/fb.png" /></a></li>
+</ul></div></div></div><div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="text-2"><div class="widget__title txt-dark">Contact Us</div>			<div class="textwidget"><ul><li><a href="#">info@gocrazysoftwares.com</a></li><li><a href="">+91-7839311963</a></li></ul></div>
 		</div></div><div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="text-5">			<div class="textwidget"> </div>
-		</div></div><div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="text-4">			<div class="textwidget"><a href="#" class="bg-link openContactForm" data-toggle="modal" data-target="#ModalWrap">Contact Us</a>
-<a href="#" class="bg-link openGetDemoForm" data-toggle="modal" data-target="#ModalWrap">Schedule a demo</a></div>
+		</div></div><div class="col-md-3 col-sm-4 col-xs-6"><div class="footer__block" id="text-4">			<div class="textwidget"><a href="ContactUs.aspx" class="bg-link" target="_blank">Contact Us</a>
+<%--<a href="#" class="bg-link openGetDemoForm" data-toggle="modal" data-target="#ModalWrap">Schedule a demo</a>--%></div>
 		</div></div>			</div>
 		</div>
 	</footer>

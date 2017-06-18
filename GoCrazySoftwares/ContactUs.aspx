@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="style.css" rel="stylesheet" />
+    <link href="Content/wp-content/themes/hubscale/css/bootstrap.minef15.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server" class="form">
@@ -14,21 +15,24 @@
    
       
       <p class="name">
-        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+          <asp:TextBox ID="txtName" runat="server" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" ></asp:TextBox>
+
       </p>
       
       <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+          <asp:TextBox ID="txtEmail" runat="server" class="validate[required,custom[email]] feedback-input" placeholder="Email"></asp:TextBox>
       </p>
       
       <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+          <asp:TextBox ID="txtComment" TextMode="MultiLine" runat="server" class="validate[required,length[6,300]] feedback-input" placeholder="Comment"></asp:TextBox>
+        
       </p>
       
       
       <div class="submit">
-        <input type="submit" value="SEND" id="button-blue"/>
-        <div class="ease"></div>
+          <asp:Button ID="btnSubmit" CssClass="btn btn-primary" runat="server" Text="SEND" OnClick="btnSubmit_Click" />
+        <%--<input type="submit" value="SEND" id="button-blue"/>--%>
+        
       </div>
   
   </div>
